@@ -1,10 +1,12 @@
 // src/App.js
 // src/App.js
 // src/App.js
+// src/App.js
 import React, { useState } from "react";
 import CurationCanvas from "./CurationCanvas";
 import { uploadImage } from "./uploadService";
 import html2canvas from "html2canvas"; // Import html2canvas
+import UserComponent from './UserComponent'; // Import UserComponent
 
 function App() {
   const [images, setImages] = useState([]);
@@ -30,6 +32,9 @@ function App() {
       <input type="file" onChange={handleImageUpload} />
       <CurationCanvas images={images} />
       <button onClick={handleExport}>Export Curated Look</button>
+
+      {/* Add UserComponent here */}
+      <UserComponent />  {/* This will render the user management features */}
     </div>
   );
 }
