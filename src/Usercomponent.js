@@ -1,6 +1,7 @@
 // src/UserComponent.js
+// src/UserComponent.js
 import React, { useEffect, useState } from 'react';
-import db from './firebaseConfig'; // Import Firestore instance
+import { db } from './firebaseConfig'; // Correct import for Firestore instance
 import { collection, addDoc, getDocs } from "firebase/firestore"; // Import Firestore functions
 
 const UserComponent = () => {

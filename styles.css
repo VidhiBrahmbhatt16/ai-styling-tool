@@ -1,0 +1,47 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean font */
+    line-height: 1.6; /* Increases line height for readability */
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text color */
+}
+
+/* Header styles */
+header {
+    background: #007bff; /* Bootstrap blue background */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Padding above and below the header */
+    text-align: center; /* Center-aligns header text */
+}
+
+/* Main content styles */
+main {
+    max-width: 800px; /* Maximum width for main content */
+    margin: 20px auto; /* Centers the main content */
+    padding: 20px; /* Padding around the main content */
+    background: #fff; /* White background for main content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 20px; /* Spacing below paragraphs */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    header {
+        font-size: 1.5em; /* Slightly smaller font size on mobile */
+    }
+
+    main {
+        padding: 15px; /* Less padding on mobile */
+    }
+}

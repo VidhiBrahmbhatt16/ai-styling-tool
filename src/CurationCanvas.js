@@ -1,5 +1,6 @@
 // src/CurationCanvas.js
 // src/CurationCanvas.js
+// src/CurationCanvas.js
 import React from "react";
 
 const CurationCanvas = ({ images }) => {
